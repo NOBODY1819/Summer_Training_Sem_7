@@ -30,11 +30,7 @@ nums is sorted in non-decreasing order.
 #include<algorithm>
 using namespace std;
 
-int main(){
-    
-    return 0;
-}
-
+//Solution Function
 int removeDuplicates(vector<int>& nums) {
         for(auto i = nums.begin()+1; i<nums.end();){
             if(*(i-1)==*i){
@@ -45,3 +41,8 @@ int removeDuplicates(vector<int>& nums) {
 
         return nums.size();
     }
+
+int main(){
+    
+    return 0;
+}
